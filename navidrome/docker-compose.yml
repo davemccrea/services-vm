@@ -12,3 +12,6 @@ services:
     environment:
       ND_COVERARTPRIORITY: cover.*, folder.*, front.*, embedded
       ND_ENABLEEXTERNALSERVICES: true
+      ND_DEVARTWORKMAXREQUESTS: 12
+      ND_IMAGECACHESIZE: 500MB
+      ND_ENABLEARTWORKPRECACHE: false
